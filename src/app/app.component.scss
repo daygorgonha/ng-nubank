@@ -41,3 +41,74 @@
     }
   }
 }
+
+h1, h2, h3, span, p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(35, 35, 35);
+}
+
+.content section {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+
+  h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+.account {
+  padding-left: 0!important;
+  margin-bottom: 0!important;
+
+  .content-title, .balance {
+    margin-left: 28px;
+    margin-right: 28px;
+
+  }
+  .carousel {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding-left: 28px;
+    width: calc(100% - 28px);
+
+    .carousel-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        justify-content: start;
+      }
+    }
+
+    .carousel-item-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      background-color: rgb(241, 241, 241);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+
+    .carousel-item.keen-slider__slide {
+      min-width: calc((100% / 4.5) - 14px) !important;
+      max-width: calc((100% / 4.5) - 14px) !important;
+    }
+  }
+}
+
