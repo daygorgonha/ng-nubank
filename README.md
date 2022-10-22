@@ -1,27 +1,60 @@
-# NgNubank
+<h1 align="center"> 🏦 Interface Nubank 💜 </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+<h4 align="center"> 
+	  Status: Concluido 🚀 
+</h4>
 
-## Development server
+<br />
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">Nesse projeto construi o clone da interface do Nubank utilizando Angular. </p>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br />
+<p align="center"> <img src="./src/assets/print.png"> </p>
+<br />
 
-## Build
+##  Tecnologias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Running unit tests
+<p align="center">
+  <img  src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/>
+  <img  src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img  src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+</p>
 
-## Running end-to-end tests
+<br />
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Instalação e Execução do Projeto
 
-## Further help
+- Clone este repositório
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+> git clone https://github.com/daygorgonha/ng-nubank.git
+```
+
+- Navegue até o diretório principal do projeto
+
+```
+> cd ng-nubank
+```
+
+- Execute o projeto
+
+```
+> ng serve --open
+```
+
+<br/>
+
+---
+
+<div align="center">
+  <br />
+  <a href="https://github.com/daygorgonha">
+    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/97552170?v=4" width="100px;" alt=""/>
+    <br />
+    <small>Feito com ❤️ by <a href="https://www.linkedin.com/in/dayanegorgonha/">Dayane Gorgonha</a></small>
+  </a>
+
