@@ -66,6 +66,30 @@ h1, h2, h3, span, p {
   }
 }
 
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .card {
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+
+    svg {
+      padding-left: 24px;
+    }
+
+    span {
+      padding-left: 16px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}
+
 .account {
   padding-left: 0!important;
   margin-bottom: 0!important;
@@ -108,6 +132,42 @@ h1, h2, h3, span, p {
     .carousel-item.keen-slider__slide {
       min-width: calc((100% / 4.5) - 14px) !important;
       max-width: calc((100% / 4.5) - 14px) !important;
+    }
+  }
+
+  .my-cards {
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 28px;
+    width: calc(100% - 28px);
+
+    .card {
+      height: 88px;
+
+      p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+        font-weight: 200;
+        color:rgb(35, 35, 35);
+        margin: 0;
+
+        .purple {
+          color:rgb(130, 10, 209);
+          padding: 0;
+        }
+      }
+    }
+
+    .card.keen-slider__slide {
+      min-width: calc((100% / 1.5) - 14px) !important;
+      max-width: calc((100% / 1.5) - 14px) !important;
     }
   }
 }

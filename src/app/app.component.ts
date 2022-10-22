@@ -15,7 +15,11 @@ export class AppComponent {
   @ViewChild('sliderRef')
   sliderRef!: ElementRef<HTMLElement>
 
+  @ViewChild('cardSliderRef')
+  cardSliderRef!: ElementRef<HTMLElement>
+
   slider?: KeenSliderInstance
+  cardSlider?: KeenSliderInstance
 
   ngAfterViewInit() {
     this.slider = new KeenSlider(this.sliderRef.nativeElement, {
@@ -23,6 +27,15 @@ export class AppComponent {
       mode: 'free',
       slides: {
         perView: 4.5,
+        spacing: 14
+      }
+    });
+
+    this.cardSlider =  new KeenSlider(this.cardSliderRef.nativeElement, {
+      loop: false,
+      mode: 'free',
+      slides: {
+        perView: 1.5,
         spacing: 14
       }
     })
